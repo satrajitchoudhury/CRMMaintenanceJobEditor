@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AuditWarning1" xml:space="preserve">
+    <value>WARNING: Changes to the Create Audit Partition next run date may have unintended consequences. Do not change this date unless it is absolutely necessary. It is recommended that you change the future schedule instead of the next job instance.Are you sure that you want to change this date and time?</value>
+  </data>
+  <data name="AuditWarning2" xml:space="preserve">
+    <value>WARNING: Changes to this date may have unintended consequences.                You have indicated you want to change the date time which is not recommended.
+If you change the date/time you may press the Refresh button to clear the changes but this must be done prior to pressing the Update button.             Are you absolutely sure you want to continue?</value>
+  </data>
+  <data name="ChangesCleared" xml:space="preserve">
+    <value>Changes Cleared...</value>
+  </data>
+  <data name="ExceptionAndAppShutdown" xml:space="preserve">
+    <value>An unhandled exception was caught, the application will now be shut down</value>
+  </data>
+  <data name="ExceptionAssemblyLocation" xml:space="preserve">
+    <value>This assembly must be run from the:
+{0}\\ directory.
+
+The current location is: {1}\\</value>
+  </data>
+  <data name="ExceptionBuildExpired" xml:space="preserve">
+    <value>This build has expired.  Please contact the developer for a new build or visit</value>
+  </data>
+  <data name="ExceptionRecurrenceError" xml:space="preserve">
+    <value>There must be more exactly two parts to a recurrence pattern</value>
+  </data>
+  <data name="ExceptionRecurrencePattern" xml:space="preserve">
+    <value>Recurrence Pattern is invalid</value>
+  </data>
+  <data name="jobNameCheckforLanguageUpdates" xml:space="preserve">
+    <value>Check For MUI Updates</value>
+  </data>
+  <data name="jobNameCheckFullTextIndexColumnStatusOperation" xml:space="preserve">
+    <value>Check FullText ColumnStatus</value>
+  </data>
+  <data name="jobNameCleanupWorkflows" xml:space="preserve">
+    <value>Cleanup Inactive Workflow Assemblies</value>
+  </data>
+  <data name="jobNameCreateAuditPartition" xml:space="preserve">
+    <value>Create Audit Partition</value>
+  </data>
+  <data name="jobNameDeletionService" xml:space="preserve">
+    <value>Deletion Service</value>
+  </data>
+  <data name="jobNameIndexManagement" xml:space="preserve">
+    <value>Indexing Management</value>
+  </data>
+  <data name="jobNameRefreshReadSharingSnapshots" xml:space="preserve">
+    <value>Refresh Sharing Counts</value>
+  </data>
+  <data name="jobNameRefreshRowCountSnapshots" xml:space="preserve">
+    <value>Refresh Entity Row Counts</value>
+  </data>
+  <data name="jobNameReindexAll" xml:space="preserve">
+    <value>Reindex All</value>
+  </data>
+  <data name="JobNotRun" xml:space="preserve">
+    <value>Job has not been run</value>
+  </data>
+  <data name="OverrideSchedule" xml:space="preserve">
+    <value>FREQ=DAILY;INTERVAL=30;</value>
+  </data>
+  <data name="ProjectTitle" xml:space="preserve">
+    <value>CRM Maintenance Job Editor</value>
+  </data>
+  <data name="ProjectUrl" xml:space="preserve">
+    <value>http://crmjobeditor.codeplex.com/</value>
+  </data>
+  <data name="sDays" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="sHours" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="sMinutes" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="sMonths" xml:space="preserve">
+    <value>Months</value>
+  </data>
+  <data name="StatusCheckVersion" xml:space="preserve">
+    <value>Check for updates</value>
+  </data>
+  <data name="StatusUpdateCompleted" xml:space="preserve">
+    <value>Update Completed</value>
+  </data>
+  <data name="StatusUpdateFailed" xml:space="preserve">
+    <value>Update failed with error:</value>
+  </data>
+  <data name="tblScaleGrp" xml:space="preserve">
+    <value>ScaleGroupOrganizationMaintenanceJobs</value>
+  </data>
+  <data name="ToolTipchkAllJobs" xml:space="preserve">
+    <value>When this box is checked all current and future job changes will be applied
+to ALL jobs in the currently selected organization.</value>
+  </data>
+  <data name="ToolTipdtNextRun" xml:space="preserve">
+    <value>The date/time indicating the next time the job will run.
+To run the job immediatley, set this date/time to a date in the past.
+The Asynchronus Service must be running for the job to run.</value>
+  </data>
+  <data name="ToolTipdtRecStartTime" xml:space="preserve">
+    <value>Time used to calculate the next time a job runs.
+This setting will only be used the next time the async service runs this particular job.
+
+For Instance:
+If the base time is set to 1:00AM and the interval is every 1 day, the next runtime
+generated will be 1:00AM of the current date plus the jobs interval of 1 day.
+The final setting for job next run would be 1:00AM of the next day.</value>
+  </data>
+  <data name="ToolTipTimeOnly" xml:space="preserve">
+    <value>This job type will only allow you to change the time,
+any date value will be ignored for this job type.</value>
+  </data>
+  <data name="ToolTipTssLink" xml:space="preserve">
+    <value>Click here to check for a newer version newer than:</value>
+  </data>
+</root>
